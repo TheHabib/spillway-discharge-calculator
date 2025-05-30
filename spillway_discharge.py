@@ -14,7 +14,7 @@ st.set_page_config(
 
 class StreamlitSpillwayCalculator:
     def __init__(self):
-        self.csv_filename = "discharge_list.csv"
+        self.csv_filename = "./discharge_list.csv"
         self.initialize_session_state()
         
     def initialize_session_state(self):
